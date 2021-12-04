@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title><?html if(isset($page_title)){echo "$page_title " ; }else{echo "GDSC YEMEN"; }?></title>
+        <title>post view</title>
     <meta name="description" content="" />
     <meta name = "keyword" content=""/>
     <meta name = "author" content="GDSC YEMEN"/>
@@ -139,29 +139,9 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <th>name</th>
-                                <td>name</td>
-                                <td>cname</td>
-                                <td> <img src="" width="60px" height="60px" alt="<?=$posts['image']?>"/> <td>
-
-                            </td>
-                               <td> <a href="#" name="posts_edit" class="btn btn-primary">Edit</a>
-                            </td>
-                               <td> 
-                                   <form action="code.html" method="POST">
-                                       <button type="submit" value="#" name="posts_delete" class="btn btn-danger">Delete</button>
-                                    </form>
-                                </td>
-                                             <td>
-                                    <form action="code.html" method="POST">
-                                        <button disabled type="submit"  name="category_delete"
-                                            class="btn btn-danger">Delete</button>
-                                    </form>
-                                </td>  
-                            </tr>
+                         
                     <tr>
-                        <td colspan="6">No record found </td>
+                        <td colspan="7">No record found </td>
                     </tr>
                         </tbody>
                     </table>

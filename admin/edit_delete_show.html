@@ -3,9 +3,9 @@
     <head>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title><?html if(isset($page_title)){echo "$page_title " ; }else{echo "GDSC YEMEN"; }?></title>
-    <meta name="description" content="<?html if(isset($meta_description)) { echo "$meta_description";} ?>" />
-    <meta name = "keyword" content="<?html if(isset($meta_keyword)) {echo "$meta_keyword";} ?>" />
+        <title>edit</title>
+    <meta name="description" content="" />
+    <meta name = "keyword" content="" />
     <meta name = "author" content="GDSC YEMEN"/>
         <link href="css/style.css" rel="stylesheet" />
         <link rel="stylesheet" href="css/all.css">
@@ -128,25 +128,25 @@
                     <h4>Edit user</h4>
                 </div>
                 <div class="card-body">
-                    <form action="code.php" method="POST">
-                        <input type="hidden" name="id" value="<?=$user_edit['id'];?>">
+                    <form  method="POST">
+                        <input type="hidden" name="id" value="">
                         <div class="row">
                             <div class="col-md-6 mb-3">
                                 <label for="">First Name</label>
-                                <input type="text" value="<?=$user_edit['fname'];?>" class="form-control" name="fname">
+                                <input type="text" value="" class="form-control" name="fname">
                             </div>
                             <div class="col-md-6 mb-3">
                                 <label for="">Last Name</label>
-                                <input type="text" value="<?=$user_edit['lname'];?>" class="form-control" name="lname">
+                                <input type="text" value="" class="form-control" name="lname">
                             </div>
                             <div class="col-md-6 mb-3">
                                 <label for="">UserName</label>
-                                <input type="text" value="<?=$user_edit['username'];?>" class="form-control"
+                                <input type="text" value="" class="form-control"
                                     name="username">
                             </div>
                             <div class="col-md-6 mb-3">
                                 <label for="">Email</label>
-                                <input type="email" value="<?=$user_edit['email'];?>" class="form-control" name="email">
+                                <input type="email" value="" class="form-control" name="email">
                             </div>
 
                             <div class="col-md-6 mb-3">
